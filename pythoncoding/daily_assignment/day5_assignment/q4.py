@@ -1,0 +1,6 @@
+f=open("log.txt","a")
+f.write("this is a new log entry.\n")
+f.close()
+f=open("log.txt","r")
+print(f.read())
+f.close()

@@ -1,0 +1,6 @@
+f=open("sample.txt","r")
+content=f.read()
+f.close()
+print("lines:",len(content.splitlines()))
+print("words:",len(content.split()))
+print("characters:",len(content))

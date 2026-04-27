@@ -1,0 +1,7 @@
+f=open("sample.txt","r")
+content=f.read()
+f.close()
+f=open("destination.txt","w")
+f.write(content)
+f.close()
+print("file copied!")
