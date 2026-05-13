@@ -1,0 +1,11 @@
+a = 5
+b = 12
+print("a = ",a)
+print('b = ',b)
+print("Add a+b = ",a+b)
+print('Subract a-b = ',a-b)
+print('Multily a*b = ',a*b)
+print('divide a/b = ',a/b)
+print('a//b = ', a//b)
+print("Modulo a%b = ",a%b)
+print('power a**b = ',a**b)
